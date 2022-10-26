@@ -1,0 +1,1663 @@
+--A ciência de dados é o processo de construção, limpeza e
+estruturar conjuntos de dados para analisar e extrair significado.
+--A análise de dados, por outro lado, refere-se ao processo
+e prática de analisar dados para responder perguntas, extrair
+insights e identificar tendências.
+
+
+--Processo de Analise de Dados (Ciclo de vida da analise de dados)
+Pergunta(defina o problema e a expectativa das partes interessadas),
+preparação(colete e armazene dados),
+processamendo(limpe, junte e transforme os dados),
+analise(use ferramentas para tirar conclusoes, planilhas e SQL),
+compartilhamento(interprete e informe as tomadoras de decisao, VISUALIZAÇÃO=DASHBOARDS, POWERPORINT e R) e
+ação(ponha seus insights para trabalhar e resolver o problema).
+
+--
+Curiosidade: desejo de saber mais sobre algo, fazendo as perguntas certas
+Compreensão do contexto: entender onde as informações se encaixam no “quadro geral”
+Ter uma mentalidade técnica: dividir itens grandes em etapas menores
+Design de dados: pensar em como organizar dados e informações
+Estratégia de dados: pensar nas pessoas, nas ferramentas e nos processos usados na análise de dados 
+
+--Ciclo de vida dos dados
+Planejamento(tipos de dados, como gerenciar, quem é responsável),
+captura(colete ou traga dados de varias fontes),
+gerenciamento(cuidar e manter, como e onde e que ferramentas para isso),
+analise(uso para resolver problemas, tomar decisoes, apoiar metas negocios),
+arquivamento(mantenha dados armazenados para o futuro)e
+destruicao(remova dados e copias compartilhadas).
+
+
+Planilha, banco de dados,linguagem de consulta e software de visualizacao
+
+Select, from, where
+
+Questão (issue) - tópico ou assunto a ser investigado
+Pergunta (question) - projetada para descobrir informacoes 
+Problema (problem) - um obstaculo ou complicacao que precisa ser resolvida
+
+- Tipos de problemas comums
+Fazer previsões
+Categorizar coisas
+Identificar algo fora do normal
+identificar temas
+Descobrir conexões
+Encontrar padrões
+
+- SMART (perguntas)
+Especificas
+Mensuraveis
+Orientadas para a Ação
+Relevantes
+Com prazo determinado
+
+Qual é o prazo do projeto?
+Quais desafios existentes devem ser considerados?
+Quem são os principais interessados neste projeto e o que eles esperam que o projeto faça por eles?
+Para quem estou apresentando os resultados?
+
+Dados são uma coleção de fatos
+Análise de dados nos da insights e padrões importantes sobre os dados
+E por fim, a AD pode nos ajudar a tomar decisões mais informadas.
+
+Algoritmo - processo ou conjunto de normas a serem seguidas para uma tarefa específica
+90% dos dados mundiais foram criados nos ultimos 5 anos
+Dados -> informação -> conhecimento
+
+Decisões com base em dados
+Decisões inspiradas em dados - explora diferentes fontes de dados para identificar o que há em comum (semelhanças)
+
+Quantitativos - medidas especificas e objetivas de fatos numericos (que, quantos e quantas)
+graficos ou tabelas
+Entrevistas estruturadas
+Pesquisas
+Enquetes
+Metrica - quantificavel e isolado usado para avaliar
+
+Qualitativos - medidas subjetivas e explicativas de qualidades e caracteristicas (cor, por ques)
+Grupos focais
+Analise de texto de midia social
+Entrevistas pessoais
+
+Relatorios = estatico e Paineis - tempo real  (ferrametas de apresentação)
+
+Paineis:
+Estratégico: foca-se em metas e estratégias de longo prazo no mais alto nível das métricas.
+Operacional: rastreamento de desempenho de curto prazo e metas intermediárias.
+Analítico: consiste nos conjuntos de dados e na matemática usada nesses conjuntos.
+
+Com a logica matemática, voce quebra os problema em um processo passo a passo para encontrar padroes
+
+Fórmulas   =B2+C2+D2+E2 (enter), =(B2+C2++D2+E2)/4 (enter), =(E2-D2)/D2 (enter), operadores
+fórmula é um conjunto de instruções que faz um cálculo específico usando os dados de uma planilha.
+=IFERROR(B4/A4, " Not applicable ")
+#ERROR! erro sintaxe na formula
+#N/A erro sintaxe na célula
+#NAME? erro sintaxe na formula
+#NUM! erro inversão de datas final e inicial na formula
+#VALUE! erro sintaxe na célula (nome ao invés de data)
+#REF! erro quando tiramos uma linha ou coluna invalidando a formula
+
+Função é um comando predefinido que executa automaticamente um processo ou tarefa usando os dados
+
+Domínio do Problema: Área específica da análise que abrange todas as atividades que afetam ou são afetadas pelo problema.
+Pensamento estruturado: É o processso de reconhecer o problema ou situação atual, organizar as informações disponíveis, revelar lacunas e oportunidades e identificar as opções.
+Escopo de trabalho: Um esboço combinado do trabalho que você vai realizar em um projeto. SOW
+Dados precisam de contexto (quem, o que, quando, onde, por que e como)
+Contexto: condição em que algo existe ou acontece. Os dados tem pouco valor se não estiverem emparelhados com o contexto.
+
+Quem: A pessoa ou organização que criou, coletou e/ou financiou a coleta de dados
+O quê: As coisas no mundo sobre as quais os dados podem ter impacto
+Onde: A origem dos dados
+Quando: A hora em que os dados foram criados ou coletados
+Por quê: A motivação por trás da criação ou coleção
+Como: O método usado para criar ou coletar
+
+Entender e incluir o contexto é importante durante cada etapa de seu processo de análise, portanto, é uma boa ideia se familiarizar com isso no início de sua carreira. Por exemplo, ao coletar dados, você também desejará fazer perguntas sobre o contexto para ter certeza que entendeu o negócio e o processo de negócios. Durante a organização, o contexto é importante para suas convenções de nomeação, como você escolhe mostrar as relações entre as variáveis e o que você escolhe manter ou omitir. E por último, quando for apresentar, é importante incluir informações contextuais para que suas partes interessadas entendam sua análise.
+
+Stakeholder: Pessoa que investe tempo, interesse e recursos em projetos que vc sera AD. Tem interesse no que vc esta fazendo.
+
+Quem é seu público-alvo?
+O que o seu público-alvo já sabe?
+O que o seu público-alvo precisa saber?
+Qual é a melhor forma de comunicar o que o seu público-alvo precisa saber?
+
+
+População são todos os valores de dados possiveis em um conjunto de dados
+Amostra é uma parte da populacao que a representa
+
+Quantitativos
+Discretos - são contados e tem número limitado de valores (Não podem ser quebrados, meio isso, um quarto daquilo).
+Contínuos - podem ser medidos usando temporizador e podem podem conter decimal com varias casas.
+Qualitativos
+Nominais - São categorizados sem ordem definida, sem sequencia.
+Ordinários - tem ordem ou escala definida.
+
+Primarios - coletados em primeira mão
+Secundarios - por outra pessoa ou outra pesquisa (comprados ou fornecidos)
+Dados internos são aqueles que a própria empresa coleta, são mais confiáveis e fáceis de coletar.
+Dados externos são gerados fora da empresa (são uteis quando a analise depende de tantas fontes quanto possíveis).
+
+Dados estruturados - são organizados em um determinado formato como linhas e colunas.
+Planilhas e bancos de dados relacionais são exemplos de sofware que armazena dados de forma estruturada.
+O pensamento estruturado ajuda voce a adicionar uma estrutura a um problema para que voce possa resolve-lo de uma forma logica e organizada. Ter os dados estruturados os torna facilmente pesquisaveis e prontos para analise. Tabelas, planilhas ou bancos de dados relacionais serão suas fontes.
+
+Ddos não estruturados - Não estão organizados de qualquer forma facilmente identificavel. Arquivos de audio e video saõ exemplos, por não há uma forma clara de identificar ou organizar seus conteudos. Eles tem uma estrutura interna mas não se encaixam perfeitamente em linhas e colunas.
+
+Modelo de dados - Organização de elementos de dados e como eles se relacionam uns com os outros.
+Elementos de dados - São informações como nomes de pessoas, numeros de conta e endereços.
+
+A modelagem de dados é o processo de criação de diagramas que representam visualmente como os dados são organizados e estruturados.  Essas representações visuais são chamadas de modelos de dados. Você pode pensar na modelagem de dados como a planta de uma casa. A qualquer momento, pode haver eletricistas, carpinteiros e encanadores usando essa planta. Cada um desses construtores tem um relacionamento diferente com o projeto, mas todos precisam entender a estrutura geral da casa. Os modelos de dados são semelhantes. Usuários diferentes podem ter necessidades de dados diferentes, mas o modelo de dados fornece a eles uma compreensão da estrutura como um todo. 
+
+A modelagem de dados conceituais oferece uma visão de alto nível da estrutura de dados, por exemplo, como os dados interagem em uma organização. Por exemplo, um modelo de dados conceituais pode ser usado para definir os requisitos de negócios para um novo banco de dados. Um modelo de dados conceituais não contém detalhes técnicos. 
+
+A modelagem de dados lógicos concentra-se nos detalhes técnicos de um banco de dados, como relacionamentos, atributos e entidades. Por exemplo, um modelo de dados lógico define como os registros individuais são identificados exclusivamente em um banco de dados, mas não especifica os nomes reais das tabelas do banco de dados. Esse é o trabalho de um modelo de dados físico.
+
+A modelagem de dados físicos descreve como um banco de dados opera. Um modelo de dados físicos define todas as entidades e atributos usados; por exemplo, inclui nomes de tabelas, nomes de colunas e tipos de dados para o banco de dados.
+
+Técnicas de modelagem de dados
+Existem muitas abordagens quando se trata de desenvolver modelos de dados, mas dois métodos comuns são o Diagrama de Relacionamento de Entidade (ERD) e o diagrama de Linguagem de Modelagem Unificada (UML). ERDs são uma forma visual de compreender a relação entre entidades no modelo de dados. Os diagramas UML são diagramas muito detalhados que descrevem a estrutura de um sistema, mostrando as entidades, atributos, operações e relacionamentos do sistema. Como analista de dados júnior, você precisará entender que existem diferentes técnicas de modelagem de dados, mas, na prática, você provavelmente usará a técnica existente em sua organização. 
+
+Análise de dados e modelagem de dados
+A modelagem de dados pode ajudá-lo a explorar os detalhes de alto nível de seus dados e como eles estão relacionados nos sistemas de informação da organização. A modelagem de dados às vezes, requer análise de dados para entender como os dados são reunidos, permitindo que você saiba como mapeá-los. E, finalmente, os modelos de dados tornam mais fácil para todos em sua organização entender e colaborar com você em seus dados. Isso é importante para você e todos em sua equipe!
+
+https://www.1keydata.com/datawarehousing/data-modeling-levels.html
+https://dataedo.com/blog/basic-data-modeling-techniques
+
+Tabelas:
+Linhas são registros
+Colunas são campos
+
+Dados amplos (abrangentes, extensos), uma linha com várias colunas para descrever o assunto.
+Dados longos, poucas colunas e muitas linhas (cada linha é um ponto no tempo por assunto, então cada assunto terá dados em várias linhas)
+
+Dados amplos são preferidos quando 
+Criação de tabelas e gráficos com algumas variáveis sobre cada assunto
+Comparando gráficos de linha simples
+
+Dados longos são preferidos quando
+Armazenando muitas variáveis sobre cada assunto, por exemplo, 60 anos de taxas de juros para cada banco
+Execução de análises estatísticas avançadas ou gráficos
+
+Viés de amostragem - selecionar um grupo pequeno e tendencioso, ao invés de um grupo representaitvo.
+
+Viés de observação (do experimentador ou de pesquisa) - Tendência de pessoas diferentes observarem as coisas de maneira diferente.
+
+Viés de interpretação - Tendência de sempre interprtar situações anbiquas de forma positiva ou negativa.
+
+Viés de confirmação -  Tendência de buscar ou interpretar informações de uma forma que confirme crenças preexistentes.
+
+Dados BONS
+-Real (confiavel)
+-Original
+-Abrangente
+-Atual
+-Citado
+
+Dados Ruins
+- Não confiáveis, imprecisos, incompletos ou enviesados
+- Usando dados de fontes secundarias ou de terceiros, vc precisa ser extremamente cuidadoso
+- Faltando informações ou erro humano.
+- Desatualizadas e irrelevantes
+- Não examinada, citada
+
+Ética dos dados
+-Propriedade
+Isso responde à questão de quem é o proprietário dos dados? Não é a organização que investiu tempo e dinheiro coletando, armazenando, processando e analisando. São os indivíduos que possuem os dados brutos que fornecem e têm o controle principal sobre seu uso, como são processados e compartilhados. 
+-Transparencia da transacao
+é a ideia de que todas as atividades e algoritmos de processamento de dados devem ser totalmente explicáveis e compreendidos pelo indivíduo que fornece seus dados. Isso é uma resposta às preocupações sobre o enviesamento de dados, o que já abordamos anteriormente, é um tipo de erro que distorce sistematicamente os resultados em uma determinada direção. Os resultados enviesados podem levar a consequências negativas. Para evitá-los, é útil fornecer uma análise transparente, especialmente para as pessoas que compartilham seus dados. Isso permite que as pessoas julguem se o resultado é justo e não enviesado e permite que levantem possíveis preocupações. 
+-Consentimento
+Este é o direito do indivíduo de saber detalhes explícitos sobre como e por que seus dados serão usados ??antes de concordar em fornecê-los. Eles devem saber as respostas a perguntas como por que os dados estão sendo coletados? Como isso será usado? Por quanto tempo ele ficará armazenado? A melhor forma de dar consentimento é provavelmente uma conversa entre a pessoa que fornece os dados e a pessoa que os solicita. Mas, com tantas atividades online atualmente, o consentimento geralmente se parece com uma caixa de seleção dos termos e condições com links para mais detalhes. Sejamos francos, nem todo mundo clica para ler esses detalhes. O consentimento é importante porque evita que todas as populações sejam injustamente visadas, o que é um grande problema para grupos marginalizados que muitas vezes são representados de forma desproporcional por dados enviesados.
+-Moeda
+Os indivíduos devem estar cientes das transações financeiras resultantes do uso de seus dados pessoais e da escala dessas transações. Se seus dados estão ajudando a financiar os esforços de uma empresa, você deve saber do que se trata esses esforços e ter a oportunidade de optar por não participar. 
+-Privacidade
+Preservar as informações e atividades do titular dos dados sempre que ocorrer uma transação de dados.
+Direito a proteção dos dados, liberdade de uso improprio, direito de inspecionar, atualizar ou corrigir nossos dados, capacidade de dar consentimento para usar nossos dados e o direito legal para acessar nossos dados.
+-Abertura
+Acesso gratuito, uso e compartilhamento de dados
+Reutilização e Redistribuição, sem discriminação ou restrição aos dados.
+Interoperabilidade: Capacidade dos sistemas e serviços de dados de se conectarem e compartilharem dados abertamente.
+3 condições
+Estar disponível e acessível ao público como um conjunto de dados completo
+Ser fornecido em termos que permitam sua reutilização e redistribuição
+Permitir a participação universal para que qualquer pessoa possa usar, reutilizar e redistribuir os dados
+
+Anonimização, desidentificação ->  Informações de identificação pessoal
+Números de telefone
+Nomes
+Placas e números de licença
+Números de previdência social
+Endereços de IP
+Registros médicos
+Endereços de e-mail
+Fotos
+Números de conta
+
+https://www.data.gov/
+https://www.census.gov/data.html
+https://www.opendatanetwork.com/
+https://cloud.googlehttps://datasetsearch.research.google.com/.com/public-datasets
+
+Banco de Dados Relacional
+É um banco de dados que contem uma serie de tabelas relacionadas que podem ser conectadas atraves de seus relacionamentos
+Para que aja relacionamento, um ou mais campos iguais devem existir em ambas as tabelas, se existir, podemos usa-los para a concexão entre elas. São chamadas de chaves.
+Uma chave primaria é um identificador que faz referencia a uma coluna na qual cada valor é unico. (nunca nula ou em branco)
+Uma chave estrangeira é um campo/coluna dentro de uma tabela que é uma chave primaria em outra. Ela quem faz a conexão.
+Uma tabela só pode ter uma chave primaria, mas pode ter multiplas chaves estrangeiras
+
+Algumas tabelas não exigem uma chave primária. Por exemplo, uma tabela de receitas pode ter várias chaves estrangeiras e não ter uma chave primária. Uma chave primária também pode ser construída usando múltiplas colunas de uma tabela. Este tipo de chave primária é chamada de chave composta. Por exemplo, se customer_id e location_id são duas colunas de uma chave composta para uma tabela de clientes, os valores atribuídos a esses campos em qualquer linha determinada devem ser únicos dentro de toda a tabela.
+
+OBS:
+Em uma tabela não-relacional, você encontrará todas as variáveis possíveis que você possa estar interessado em analisar todas agrupadas. Isso pode dificultar a classificação. Essa é uma razão pela qual os bancos de dados relacionais são tão comuns na análise de dados: eles simplificam muitos processos de análise e tornam os dados mais fáceis de encontrar e usar em todo um banco de dados. 
+
+Os bancos de dados utilizam uma linguagem especial para se comunicar, chamada linguagem de consulta. Linguagem de Consulta Estruturada (SQL) é um tipo de linguagem de consulta que permite aos analistas de dados se comunicarem com um banco de dados. Assim, um analista de dados usará SQL para criar uma consulta para visualizar os dados específicos que eles desejam de dentro do conjunto maior. Em um banco de dados relacional, os analistas de dados podem escrever consultas para obter dados das tabelas relacionadas. SQL é uma ferramenta poderosa para trabalhar com bancos de dados - e é por isso que você vai aprender mais!
+
+Há três tipos comuns de metadados com os quais você se deparará: descritivo, estrutural, e administrativos.
+
+Os metadados descritivos são metadados que descrevem um pedaço dos dados e podem ser usados para identificá-los em um momento mais tarde. Por exemplo, o metadados descritivos de um livro em um biblioteca incluiriam o código que você vê na lombada do livro, conhecido como Padrão Internacional de Numeração de Livro, também chamado de ISBN.
+Também incluiria o autor e título do livro.
+A seguir são os metadados estruturais que são metadados que indicam como um pedaço dos dados são organizados e se é parte de uma ou mais coleta de dados. Vamos voltar para a biblioteca. Um exemplo de dados estruturais seria como as páginas de um livro são montadas para criar capítulos diferentes. É importante notar que esses metadados estruturais também mantêm um registro da relação entre duas coisas. Por exemplo, eles podem nos mostrar que o documento digital de um livro escrito manualmente era na verdade a versão original de um livro agora impresso.
+Finalmente, temos os metadados administrativos. Os metadados administrativos são metadados que indicam a fonte técnica de um bem digital. Quando olhamos para os metadados dentro da foto, tratam-se de metadados administrativos. Exibe qual o tipo de arquivo que era, a data e a hora em que foi tirada, e muito mais. 
+
+Em termos simples, metadados são dados sobre dados.
+Em essência, os metadados dizem quem, o quê, quando, onde, qual, como e por que dos dados.
+
+Fotos
+Sempre que uma foto é capturada com uma câmera, metadados como nome de arquivo da câmera, data, hora e geolocalização são coletados e salvos com ela.
+
+E-mails
+Quando um e-mail é enviado ou recebido, há muitos metadados visíveis, como linha de assunto, o remetente, o destinatário e data e hora de envio. Há também metadados escondidos que incluem nomes de servidores, endereços IP, formato HTML e detalhes de software.
+
+Planilhas e documentos
+Planilhas e documentos já estão preenchidos com uma quantidade considerável de dados, portanto não é surpresa que os metadados também os acompanhem. Títulos, autor, data de criação, número de páginas, comentários de usuários, assim como nomes de abas, tabelas e colunas são todos metadados que se podem encontrar em planilhas e documentos. 
+
+Websites
+Cada página web tem uma série de campos de metadados padrão, tais como etiquetas e categorias, nome do criador do site, título e descrição da página web, hora da criação e qualquer iconografia. 
+
+Arquivos digitais
+Normalmente, se você clicar com o botão direito do mouse em qualquer arquivo de computador, você verá seus metadados. Isto poderia consistir no nome do arquivo, tamanho do arquivo, data de criação e modificação, e tipo de arquivo. 
+
+Livros
+Os metadados não são apenas digitais. Cada livro tem um número de metadados padrão nas capas e no interior que o informarão de seu título, nome do autor, um índice, informações da editora, descrição dos direitos autorais, índice e uma breve descrição do conteúdo do livro.
+
+Usando um repositório de metadados, um analista de dados pode achar mais fácil reunir várias fontes de dados, confirmar como ou quando os dados foram coletados e verificar se os dados de uma fonte externa estão sendo usados adequadamente.
+
+Os metadados estruturais indicam exatamente em quantos dados das coleções vivem. Ele fornece informações sobre como um dado é organizado e se ele faz parte de uma, ou mais de uma, coleta de dados. 
+A data e a hora em que uma foto foi tirada é um exemplo de metadados administrativos. Os metadados administrativos indicam a fonte técnica e os detalhes para um bem digital.
+Os números de identificação são metadados descritivos. Os metadados descritivos descrevem um pedaço de dado ou podem ser usados para identificá-lo a qualquer momento.
+
+BANCOS DE DADOS PÚBLICOS PARA PESQUISA E ESTUDO.
+
+https://www.who.int/
+https://cloud.google.com/public-datasets
+https://datasetsearch.research.google.com/
+https://cloud.google.com/bigquery/public-data
+https://www.kaggle.com/datasets?utm_medium=paid&utm_source=google.com+search&utm_campaign=datasets&gclid=CjwKCAiAt9z-BRBCEiwA_bWv-L6PpACh6RzmrJjQjmNGCCE7kky1FCtc6Jf1qld-4NwDMYL0WsUyxBoCdwAQAvD_BwE
+https://cloud.google.com/healthcare/docs/resources/public-datasets/tcia
+https://cloud.google.com/life-sciences/docs/resources/public-datasets/1000-genomes
+https://www.ncdc.noaa.gov/data-access/quick-links
+https://www.climate.gov/maps-data/datasets
+https://data.unicef.org/resources/dataset/sowc-2019-statistical-tables/
+https://www.bls.gov/cps/tables.htm
+https://openpolicing.stanford.edu/
+
+https://dev.mysql.com/doc/mysql-getting-started/en/
+https://www.postgresql.org/docs/10/tutorial-start.html
+https://www.sqlite.org/quickstart.html
+
+
+QUERY - CONSULTA
+SQL BIGQUERY
+
+SELECT *
+FROM bigquery-public-data.sunroof_solar.solar_potential_by_postal_code
+WHERE state_name = 'Pennsylvania'
+
+SELECT * 
+FROM CUSTOMERS
+WHERE country = 'Germany'
+---> SELECIONE* DE clientes ONDE País = 'Alemanha'
+
+-SELECT é a seção de uma consulta que indica quais dados você quer que o SQL retorne a você
+-FROM é a seção de uma consulta que indica de qual tabela provêm os dados desejados.
+-WHERE está a seção de uma consulta que indica qualquer filtro que você gostaria de aplicar ao seu conjunto de dados
+
+BigQuery é um armazém de dados no Google Cloud que os analistas de dados podem usar para consultar, filtrar grandes conjuntos de dados, agregar resultados e realizar operações complexas. 
+
+Também não permite que você insira novos registros em um banco de dados ou atualize os valores de campo dos registros existentes. Estas operações de linguagem de manipulação de dados (DML) não são suportadas no sandbox.
+
+https://console.cloud.google.com/bigquery
+
+Em seu navegador, acesse console.cloud.google.com/bigquery.
+Observação: Acesse console.cloud.google.com em seu navegador o leva ao painel principal da plataforma Google Cloud. Para navegar para BigQuery a partir do painel de instrumentos, faça o seguinte:
+Clique no ícone do menu Navegação (ícone Hambúrguer) no banner.
+Vá até a seção BIG DATA.
+Clique em BigQuery e selecione o espaço de trabalho SQL.
+
+
+
+
+
+-------Testes para fazer, respostas no arquivo.
+
+Quais são os nomes das estações a partir das quais a bike_id 1710 começou?
+Quantas bicicletas já terminaram na "Moor Street, Soho"?
+O que é o station_id para "Canton Street, Poplar"?
+Qual é o nome da estação cuja identificação é 111?
+Quantas bicicletas distintas tiveram durações de viagem superiores a 2400 segundos (ou 40 minutos)?
+
+
+
+
+
+
+SELECT name, count FROM `babynames.names_2014` WHERE gender = 'M' ORDER BY count DESC LIMIT 5
+
+Esta consulta SELECIONA o nome e as colunas de contagem da tabela de names_2014. Usando a cláusula WHERE, você está filtrando para um gênero específico para seus resultados. Então, você está ordenando como deseja que seus resultados apareçam com ORDER BY. Como você está ordenando pela contagem em ordem decrescente, você receberá nomes e a contagem correspondente do maior para o menor. E finalmente, LIMIT diz ao SQL para devolver apenas os cinco nomes mais populares e suas contas.
+
+https://dataelixir.com/
+https://www.meetup.com/pt-BR/topics/data-analytics/
+https://www.tableau.com/learn/series/how-we-do-data
+https://www.kdnuggets.com/meetings/index.html
+https://www.digitalanalyticsassociation.org/
+https://www.datascienceassn.org/
+
+Funções:
+
+DAYS360 - DAYS360(start_date,end_date,[method]) Excel
+A função DAYS360 retorna o número de dias entre duas datas com base em um ano de 360 dias (doze meses de 30 dias), que é usado em alguns cálculos contábeis. Use esta função para ajudar a calcular os pagamentos se seu sistema de contabilidade for baseado em doze meses de 30 dias.
+
+DATEDIF - DATEDIF(start_date, end_date, unit) Google e Excel
+Calcula o número de dias, meses, ou anos entre duas datas.
+
+VLOOKUP - =VLOOKUP(search_key, range, index, [is_sorted]) Google
+Busca vertical. Procura na primeira coluna de um intervalo por uma chave e retorna o valor de uma célula especificada na linha encontrada.
+
+Dados limpos + alinhamento ao objetivo de negócios = conclusões precisas
+Alinhamento ao objetivo de negócios + variáveis recém-descobertas + restrições = conclusões precisas
+Se você tiver dados insuficientes, poderá identificar tendências com os dados disponíveis e qualificar suas descobertas de acordo.
+
+População --> amostra
+
+Antes que os analistas de dados possam analisar dados, primeiro precisam pensar e entender os dados com os quais estão trabalhando. A avaliação da integridade dos dados é uma etapa fundamental nesse processo. Como você aprendeu nas lições anteriores, você deve concluir as seguintes tarefas antes de analisar os dados:
+
+1. Determine a integridade dos dados avaliando a precisão geral, consistência e integridade dos dados.
+
+2. Conecte objetivos a dados entendendo como seus objetivos de negócios podem ser atendidos por uma investigação dos dados.
+
+3. Saiba quando parar de coletar dados.
+
+Os analistas de dados realizam atividades de pré-limpeza para concluir essas etapas. As atividades de pré-limpeza ajudam a determinar e manter a integridade dos dados, o que é essencial para a função de um analista de dados júnior.
+
+Pergunta 1
+
+Visão geral
+
+
+Agora que você aprendeu sobre como se preparar para a limpeza de poderá fazer uma pausa, por enquanto, para refletir sobre essas etapas. Nesta autorreflexão, você considerará seus pensamentos sobre a importância das atividades de pré-limpeza e responderá a perguntas breves.
+
+Essa autorreflexão o ajudará a desenvolver percepções sobre seu próprio aprendizado e irá prepará-lo para aplicar seu conhecimento de atividades de pré-limpeza e dados insuficientes ao seu próprio trabalho de limpeza de dados. Ao responder a perguntas (e fazer suas próprias perguntas), você considerará conceitos, práticas e princípios úteis para refinar sua compreensão e reforçar seu aprendizado. Você trabalhou duro, então não deixe de aproveitar isso ao máximo: essa reflexão ajudará a fixar o seu conhecimento!
+
+Revise a integridade dos dados
+
+
+Antes que os analistas de dados possam analisar dados, primeiro precisam pensar e entender os dados com os quais estão trabalhando. A avaliação da integridade dos dados é uma etapa fundamental nesse processo. Como você aprendeu nas lições anteriores, você deve concluir as seguintes tarefas antes de analisar os dados:
+
+1. Determine a integridade dos dados avaliando a precisão geral, consistência e integridade dos dados.
+
+2. Conecte objetivos a dados entendendo como seus objetivos de negócios podem ser atendidos por uma investigação dos dados.
+
+3. Saiba quando parar de coletar dados.
+
+Os analistas de dados realizam atividades de pré-limpeza para concluir essas etapas. As atividades de pré-limpeza ajudam a determinar e manter a integridade dos dados, o que é essencial para a função de um analista de dados júnior.
+
+O que torna os dados insuficientes
+
+
+Um dos objetivos das atividades de pré-limpeza é lidar com dados insuficientes. Lembre-se de lições anteriores em que os dados podem ser insuficientes por várias razões. Dados insuficientes têm um ou mais dos seguintes problemas:
+
+Vêm apenas de uma fonte
+
+Atualizam continuamente e estão incompletos
+
+Estão desatualizados
+
+Estão geograficamente limitados
+
+Para lidar com dados insuficientes, você pode:
+
+Identificar tendências nos dados disponíveis
+
+Esperar por mais dados se o tempo permitir
+
+Discutir com as partes interessadas e ajustar seu objetivo
+
+Pesquisar um novo conjunto de dados
+
+O poder estatístico é a probabilidade de obter resultados significativos de um teste. E o teste de hipoteses verifica isso.
+Estatisticamente significativo, minimo de 80%
+
+"O poder estatístico pode ser calculado e relatado para um experimento completo para comentar sobre a confiança que se pode ter nas conclusões extraídas dos resultados do estudo. Também pode ser usado como uma ferramenta para estimar o número de observações ou o tamanho da amostra necessários para detectar um efeito em um experimento."
+
+Fique atento a dados duplicados e 'Nulo' em conjuntos de dados abertos. Nulo na maioria das vezes significa que um campo de dados não foi atribuído (deixado em branco), mas às vezes Nulo pode ser interpretado como o valor 0. É importante entender como o Nulo foi usado antes de começar a analisar um conjunto de dados com dados Nulo. 
+
+https://www.kaggle.com/docs/datasets
+https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers
+https://machinelearningmastery.com/
+https://towardsdatascience.com/is-there-a-difference-between-open-data-and-public-data-6261cd7b5389
+
+---> calculadoras de amostra
+
+https://docs.google.com/spreadsheets/d/1MyMyqdMq0yycYtI9mfW9uY1oXPBn4AtyEyAkP6-oq8w/edit?resourcekey=0-eVzKOHcOxd1XTiC-X1Rt7A#gid=0
+
+https://www.surveymonkey.com/mp/sample-size-calculator/
+
+http://www.raosoft.com/samplesize.html
+
+https://goodcalculators.com/margin-of-error-calculator/
+
+https://www.checkmarket.com/sample-size-calculator/#sample-size-margin-of-error-calculator
+
+
+Nível de confiança: a probabilidade de que o tamanho da amostra reflita com precisão a população maior.
+
+Margem de erro: a quantidade máxima que se espera que os resultados da amostra sejam diferentes dos da população real.
+
+População: este é o número total do qual você espera extrair sua amostra.
+
+Amostra: uma parte de uma população que é representativa da população.
+
+Taxa de resposta estimada: se você estiver realizando uma pesquisa com indivíduos, essa é a porcentagem de pessoas que você espera que preencham sua pesquisa entre aquelas que receberam a pesquisa.
+
+Na maioria dos casos, é usado um nível de confiança de 90% ou 95%. Mas, dependendo do seu setor, convém definir um nível de confiança mais rigoroso. Um nível de confiança de 99% é razoável em algumas indústrias, como a indústria farmacêutica.  
+
+Anteriormente, discutimos que dados sujos são dados incompletos, incorretos ou irrelevantes para o problema que você está tentando resolver.  
+
+A validação de dados é uma ferramenta para verificação da exatidão e qualidade dos dados antes de adiciona-los ou importando-los
+
+Precisão - O grau de |conformidade| de uma medida com um padrão ou valor |verdadeiro|. Banco de dados interno incorreto comparado ao publico.
+
+Validade - O conceito de usar principios de |integridade| dos dados para garantir que as medidas estejam em |conformidade| com as regras ou restrições de negócios defidas. Dados antigos usando tecnologia não compativel
+
+Integridade - O grau em que todas as medidas necessárias são |conhecidas|. Valor NULL ou ausente.
+
+Consistência - O grau em que um conjunto de medidas é |equivalente| em todos os sistemas. Datas imcompativeis (MM/AA com MM/DD/AAAA)
+
+Não verificação de erros ortográficos: Os erros ortográficos podem ser tão simples como erros de digitação ou de entrada. Na maioria das vezes a ortografia errada ou erros gramaticais comuns podem ser detectados, mas fica mais difícil com coisas como nomes ou endereços. Por exemplo, se você estiver trabalhando com uma tabela de planilhas de dados do cliente, você pode encontrar um cliente chamado "John" cujo nome foi inserido incorretamente como "Jon" em alguns lugares. A verificação ortográfica da planilha provavelmente não marcará isto, portanto, se você não verificar novamente os erros ortográficos e apanhar isto, sua análise terá erros nela. 
+
+Esquecer de documentar erros: Documentar seus erros pode ser uma grande economia de tempo, pois ajuda a evitar esses erros no futuro, mostrando-lhe como resolvê-los. Por exemplo, você pode encontrar um erro em uma fórmula em sua planilha. Você descobre que algumas das datas em uma de suas colunas não foram formatadas corretamente. Se você tomar nota desta correção, poderá referenciá-la na próxima vez que sua fórmula for quebrada, e obter um avanço na solução de problemas. Documentar seus erros também ajuda a acompanhar as mudanças em seu trabalho, para que você possa recuar se uma correção não funcionou. 
+
+Não verificação de valores de campos errados: Um valor errado acontece quando os valores são inseridos no campo errado. Estes valores ainda podem ser formatados corretamente, o que os torna mais difíceis de serem capturados se você não for cuidadoso. Por exemplo, você pode ter um conjunto de dados com colunas para cidades e países. Estes são o mesmo tipo de dados, por isso são fáceis de misturar. Mas se você estivesse tentando encontrar todas as instâncias da Espanha na coluna do país, e a Espanha tivesse sido inserida erroneamente na coluna da cidade, você perderia pontos de dados-chave. Garantir que seus dados tenham sido inseridos corretamente é a chave para uma análise precisa e completa. 
+
+Ignorando os valores ausentes: Valores em falta em seu conjunto de dados podem criar erros e dar-lhe conclusões imprecisas. Por exemplo, se você estivesse tentando obter o número total de vendas dos últimos três meses, mas faltasse uma semana de transações, seus cálculos não seriam imprecisos.  Como melhor prática, tente manter seus dados o mais limpos possível, mantendo a completude e consistência.
+
+Apenas olhando para um subconjunto dos dados: É importante pensar em todos os dados relevantes quando você estiver limpando. Isto ajuda a entender toda a história que os dados estão contando, e que você está prestando atenção a todos os possíveis erros. Por exemplo, se você estiver trabalhando com dados sobre padrões de migração de aves de diferentes fontes, mas você limpa apenas uma fonte, você pode não perceber que alguns dos dados estão sendo repetidos. Isto causará problemas em sua análise mais tarde. Se você quiser evitar erros comuns como duplicatas, cada campo de seus dados requer a mesma atenção.
+
+Perder a noção dos objetivos comerciais: Quando você estiver limpando dados, você pode fazer novas e interessantes descobertas sobre seu conjunto de dados - mas você não quer que essas descobertas o distraiam da tarefa em mãos. Por exemplo, se você estava trabalhando com dados meteorológicos para encontrar o número médio de dias chuvosos em sua cidade, você também pode notar alguns padrões interessantes sobre a queda de neve. Isso é realmente interessante, mas não está relacionado à pergunta que você está tentando responder no momento. Ser curioso é ótimo! Mas tente não deixar que isso o distraia da tarefa em mãos.  
+
+Não consertando a fonte do erro: A correção do erro em si é importante. Mas se esse erro é realmente parte de um problema maior, você precisa encontrar a origem do problema. Caso contrário, você terá que continuar corrigindo esse mesmo erro uma e outra vez. Por exemplo, imagine que você tenha uma planilha de equipe que acompanhe o progresso de todos. A tabela continua quebrando porque pessoas diferentes estão inserindo valores diferentes. Você pode continuar resolvendo todos esses problemas um a um, ou pode configurar sua tabela para agilizar a entrada de dados de modo que todos estejam na mesma página. A abordagem da fonte dos erros em seus dados lhe poupará muito tempo a longo prazo. 
+
+Não analisar o sistema antes da limpeza dos dados: Se quisermos limpar nossos dados e evitar erros futuros, precisamos entender a causa raiz de seus dados sujos. Imagine que você é um mecânico de automóveis. Você encontraria a causa do problema antes de começar a consertar o carro, certo? O mesmo vale para os dados. Primeiro, você descobre de onde vêm os erros. Talvez seja devido a um erro de entrada de dados, não ter sido feita uma verificação ortográfica, falta de formatos, ou de duplicatas. Então, quando você entender de onde vêm os dados ruins, você pode controlá-los e manter seus dados limpos.
+
+Não fazer backup de seus dados antes da limpeza dos dados: É sempre bom ser pró-ativo e criar seu backup de dados antes de iniciar a limpeza de seus dados. Se seu programa falhar, ou se suas alterações causarem um problema em seu conjunto de dados, você pode sempre voltar à versão salva e restaurá-la. O simples procedimento de backup de seus dados pode lhe poupar horas de trabalho - e o mais importante, uma dor de cabeça. 
+
+Não contabilizando a limpeza de dados em seus prazos/processos: Todas as coisas boas levam tempo, e isso inclui a limpeza de dados. É importante ter isso em mente ao passar por seu processo e ao olhar para seus prazos. Quando você reserva tempo para a limpeza dos dados, isso ajuda a obter uma estimativa mais precisa dos ETAs para as partes interessadas, e pode ajudá-lo a saber quando solicitar um ETA ajustado. 
+
+The basics of cleaning your data
+Spell checking
+Removing duplicate rows
+Finding and replacing text
+Changing the case of text
+Removing spaces and nonprinting characters from text
+Fixing numbers and number signs
+Fixing dates and times
+Merging and splitting columns
+Transforming and rearranging columns and rows
+Reconciling table data by joining or matching
+Third-party providers
+
+https://support.google.com/a/users/answer/9604139
+
+COUNTIF
+LEN
+LEFT
+RIGHT
+MID
+CONCATENATE
+TRIM
+VLOOKUP
+
+DUPLICATAS
+Para começar, selecione as colunas de A a F. 
+Depois,na barra do menu, escolha Data e Remover duplicações.
+Na janela pop-up, clique em Os dados têm linha de cabeçalho. Você quer remover duplicatas de id's de lojas boba e nomes de lojas Boba.Na seção Colunas para análise, certifique-se de que as colunas relevantes (id, nome) estejam selecionadas. 
+Uma vez que tudo tenha sido selecionado, clique em Remover duplicatas.
+Se feito corretamente, 3 filas duplicadas serão encontradas e removidas e 604 filas permanecerão. 
+
+A função COUNTIF conta rapidamente quantos itens em um intervalo de células atendem a um determinado critério. Na célula I2, digite =COUNTIF(C:C,">5"). A primeira entrada (C:C) refere-se ao intervalo onde você está contando os dados. Neste caso, a faixa é toda a coluna de classificação (C), que contém as classificações Yelp. A segunda entrada se refere ao critério (>5), e diz à função para contar todos os valores superiores a 5.
+Pressione Enter. Você vai notar que a função retorna um valor de 9. Isto lhe diz que seu conjunto de dados contém 9 entradas que têm uma classificação superior a 5.
+Como analista de dados, é seu trabalho decidir o que fazer com valores incorretos ou pedir conselhos ao proprietário do conjunto de dados se você não estiver seguro. Neste caso, uma abordagem eficaz seria procurar no Yelp as classificações reais. Para esta atividade, você pode simplesmente substituir as classificações incorretas pelo número 5. Uma maneira eficiente de substituir as classificações é classificar numericamente os dados da maior para a menor classificação.
+Selecione as colunas de A a F.
+Agora, na barra de menu, escolha Data e Sort range.
+Na janela pop-up, marque a caixa ao lado de Os dados têm linha de cabeçalho. Organize por classificação de Z ?A. Desta forma, as mais altas classificações serão listadas em primeiro lugar. 
+Clique em Sort. Confira sua planilha. No início da coluna de classificação, você deve encontrar agora as 9 linhas que têm valores incorretos (classificação > 5).
+Em seguida, selecione o intervalo de células C2:C10. Pressione delete para apagar os valores que são maiores que 5.
+Pressione apagar para apagar os valores que são maiores que 5. Na célula C2, tipo 5. Em seguida, arraste a alça de preenchimento para a célula C10 para preencher as células restantes com 5.
+Após substituir as classificações incorretas pelo número 5, você pode notar que o novo valor na célula I2 é 0. A saída da função COUNTIF agora reflete as mudanças em seu conjunto de dados. Isto confirma que a coluna de classificação não contém mais valores superiores a 5.
+Finalmente, exclua a fórmula da célula I2, já que você não precisa mais desta informação. 
+
+A função SPLIT divide o texto em torno de um caractere ou uma string especificada, e coloca cada fragmento de texto em uma célula separada na linha. A função SPLIT dividirá a única coluna de lat-long em duas colunas separadas, uma para latitude e a outra para longitude. Na célula G2, digite =SPLIT(F2,"-"). A primeira entrada (F2) refere-se à célula onde se encontra o texto. A segunda entrada ("-") refere-se ao fato de que você está dividindo o texto com base no sinal de menos.
+Pressione Enter. O resultado mostra cada fragmento de texto em uma célula diferente.
+Selecione novamente a célula G2. Na célula G2, clique duas vezes sobre a alça de preenchimento para dividir todas as entradas lat-long restantes.
+Agora acrescente cabeçalhos de coluna às duas novas colunas (G e H). Na célula G1, digite lat. Na célula H1, digite long.
+Em seguida, substitua os dados lat-long originais na coluna F pelas novas entradas divididas nas colunas G e H. Selecione as colunas G e H, clique com o botão direito do mouse e escolha Copiar.
+Em seguida, selecione a coluna F, clique com o botão direito do mouse e escolha Colar especial e Colar apenas valores.
+Agora a nova coluna lat é a coluna F, e a nova coluna long é a coluna G. Ajuste a largura da coluna lat (F) para se ajustar aos dados, arrastando o limite direito do cabeçalho da coluna. 
+Em seguida, selecione a coluna H, clique com o botão direito do mouse e selecione Excluir coluna.
+Finalmente, os valores de longitude devem ser negativos para que sejam coordenadas precisas para o mapeamento. Para tornar negativos os valores na coluna long, multiplicá-los por -1. Na célula H2, digite =G2*-1. O asterisco (*) é o operador de multiplicação. Pressione Enter. 
+Ainda na célula H2, clique duas vezes na alça de preenchimento para preencher o resto dos valores.
+Em seguida, adicione um cabeçalho de coluna. Na célula H1, digite long.
+Agora, substitua os dados de longitude na coluna G pelos novos dados na coluna H. Selecione a coluna H, clique com o botão direito do mouse, e escolha Copiar.
+Selecione a coluna G, clique com o botão direito do mouse, e escolha Colar especial e Colar apenas valores. 
+Em seguida, selecione a coluna H, clique com o botão direito do mouse, e escolha Excluir coluna.
+As colunas F e G devem se parecer com estas: 
+
+Agora seus dados estão mais limpos, claros e fáceis de usar. 
+
+Tamanho do conjunto de dados
+Número de categorias ou rótulos
+Dados ausentes
+Dados sem formatação
+Os diferentes tipos de dados
+
+SELECT
+  name,
+  city
+FROM
+  customer_data.customer_address
+
+INSERT INTO customer_data.customer_address
+  (customer_id, address, city, state, zipcode, country)
+VALUES
+  (2645, '333 SQL Road', 'Jackson', 'MI', 49202, 'US')
+
+
+UPDATE customer_data.customer_address
+SET address = '123 New Address'
+WHERE customer_id = 2645
+
+
+SELECT
+    Name
+    MediaTypeld
+FROM
+    media_types
+
+
+SELECT
+    lastname,
+    country 
+FROM
+    customers
+WHERE
+    country = 'Germany'
+
+
+SELECT
+    state
+FROM
+    customer_data.customer_address
+WHERE
+    LENGTH(state) > 2
+
+SELECT SUBSTR("SQL Tutorial", 5, 3) AS ExtractString;
+
+
+DROP TABLE IF EXISTS
+
+SELECT --> DISTINCT	
+
+
+base para a query ----------------->
+
+SELECT
+	DISTINCT tabela
+FROM
+	banco_defora.banco_dedentro
+WHERE
+	TRIM(coluna) = 'xx'
+
+
+SELECT
+    CustomerId,
+    InvoiceDate,
+    Total
+FROM
+    Invoices
+WHERE
+    Total > 20
+
+SELECT DISTINCT fuel_type FROM cars.car_info
+
+SELECT MIN(length) AS min_length, MAX(length) AS max_length FROM cars.car_info;
+
+SELECT * FROM cars.car_info
+
+WHERE
+
+num_of_doors IS NULL;
+
+SELECT DISTINCT num_of_cylinders FROM cars.car_info;
+
+UPDATE cars.car_info SET num_of_cylinders = "two" WHERE num_of_cylinders = "tow";
+
+SELECT MIN(compression_ratio) AS min_compression_ratio, MAX(compression_ratio) AS max_compression_ratio FROM cars.car_info;
+
+SELECT MIN(compression_ratio) AS min_compression_ratio, MAX(compression_ratio) AS max_compression_ratio FROM cars.car_info
+
+WHERE
+
+compression_ratio <> 70;
+
+SELECT
+
+COUNT(*) AS num_of_rows_to_delete
+
+FROM
+
+cars.car_info
+
+WHERE
+
+compression_ratio = 70;
+
+DELETE cars.car_info
+
+WHERE compression_ratio = 70;
+
+SELECT DISTINCT drive_wheels FROM cars.car_info;
+
+SELECT DISTINCT drive_wheels, LENGTH(drive_wheels) AS string_length FROM cars.car_info;
+
+UPDATE
+
+ cars.car_info
+
+SET
+
+ drive_wheels = TRIM(drive_wheels)
+
+WHERE TRUE;
+
+SELECT DISTINCT drive_wheels FROM cars.car_info;
+
+
+SELECT DISTINCT name
+FROM
+playlist
+ORDER BY
+playlist_id
+
+SELECT DISTINCT customer_id
+FROM
+invoice
+ORDER BY
+invoice_id
+
+
+SELECT 
+*
+FROM
+album
+WHERE LENGTH(title) < 4
+
+SELECT 
+customer_id,
+SUBSTR("country", 1, 3) AS new_country
+FROM
+customer
+ORDER BY
+country
+
+[
+  {
+    "description": "date",
+    "mode": "NULLABLE",
+    "name": "date",
+    "type": "DATETIME"
+  },
+  {
+    "description": "transaction id",
+    "mode": "NULLABLE",
+    "name": "transaction_id",
+    "type": "INTEGER"
+  },
+  {
+    "description": "customer id",
+    "mode": "NULLABLE",
+    "name": "customer_id",
+    "type": "INTEGER"
+  },
+  {
+    "description": "product name",
+    "mode": "NULLABLE",
+    "name": "product",
+    "type": "STRING"
+  },
+  {
+    "description": "product_code",
+    "mode": "NULLABLE",
+    "name": "product_code",
+    "type": "STRING"
+  },
+  {
+    "description": "product color",
+    "mode": "NULLABLE",
+    "name": "product_color",
+    "type": "STRING"
+  },
+  {
+    "description": "product price",
+    "mode": "NULLABLE",
+    "name": "product_price",
+    "type": "FLOAT"
+  },
+  {
+    "description": "quantity purchased",
+    "mode": "NULLABLE",
+    "name": "purchase_size",
+    "type": "INTEGER"
+  },
+  {
+    "description": "purchase price",
+    "mode": "NULLABLE",
+    "name": "purchase_price",
+    "type": "STRING"
+  },
+  {
+    "description": "revenue",
+    "mode": "NULLABLE",
+    "name": "revenue",
+    "type": "FLOAT"
+  }
+]
+
+
+SELECT
+	purchase_price
+FROM
+	customer_data.customer_purchase
+ORDER BY
+	purchase_price DESC
+
+
+Typecasting = Converte dados de um tipo para outro (string x float)
+
+SELECT
+	CAST(purchase_price AS FLOAT64)
+FROM
+	customer_data.customer_purchase
+ORDER BY
+	CAST(purchase_price AS FLOAT64) DESC
+
+
+SELECT	
+	date,
+	purchase_price
+FROM
+	customer_data.customer_purchase
+ORDER BY
+	date BETWEEN '2020-12-01' AND '2020-12-31'
+
+
+SELECT	
+	CAST(date AS date) AS date_only,
+	purchase_price
+FROM
+	customer_data.customer_purchase
+ORDER BY
+	date BETWEEN '2020-12-01' AND '2020-12-31'
+
+
+SELECT	
+	CONCAT(product_code, product_color) AS new_product_code
+FROM
+	customer_data.customer_purchase
+ORDER BY
+	product = 'couch'
+
+COALESCE() = pode ser usada para retornar valores não nulos(ausentes) em uma lista
+
+SELECT	
+	COALESCE(product, product_code) AS product_info
+FROM 
+	customer_data.customer_purchase
+
+
+Obter dados de uma tabela usando instruções SELECT.
+
+Deduplicar dados usando comandos como DISTINCTe COUNT + WHERE.
+
+Manipular dados de string com TRIM(), SUBSTR, e LENGTH.
+
+Criar/eliminar tabelas com CREATE TABLE e DROP TABLE.
+
+Alterar os tipos de dados com CAST.
+
+SELECT
+    LENGTH(city) >9,
+    first_name,
+    city,
+    state,
+    country,
+    postal_code
+FROM
+    customer
+ORDER BY LENGTH(city) >9 = 0
+
+SELECT
+customer_id,
+SUBSTR(state,1,2)
+FROM
+customer
+ORDER BY
+state DESC
+
+TRIM - função que remove espaços a esquerda, direita e repetidos nos dados
+Remoção de duplicatas - automaticamente procura e remove duplicatas de uma planilha.
+Tabela dinamica -uma ferramenta de resumo de dados usada no procesamento.
+Ela classifica, reorganiza, agrupa, conta, totaliza e faz a media dos dados.
+
+
+Instrução CASE - Examina uma ou mais condições e retorna um valor assim que uma condição é atendida.
+
+SELECT	
+	customer_id,
+	CASE
+		WHEN first_name = 'Tnoy' THEN 'Tony'
+		WHEN first_name = 'Tmo' THEN 'Tom'
+		WHEN first_name = 'Rachle' THEN 'Rachel'
+		ELSE first_name
+		END AS cleaned_name
+FROM 
+	customer_data.customer_name
+
+
+Corrigir os problemas mais comuns
+Certifique-se de ter identificado os problemas mais comuns e corrija-os, incluindo:
+
+Origem dos erros. Você usou as ferramentas e funções certas para encontrar a origem dos erros no seu conjunto de dados?
+
+Dados nulos. Você procurou por NULOS com filtros e formatação condicional?
+
+Palavras digitadas incorretamente. Você localizou todas as palavras com erro de digitação?
+
+Números digitados incorretamente. Você verificou se os dados numéricos foram digitados corretamente?
+
+Caracteres e espaços extras. Você excluiu os caracteres ou espaços extras com a função TRIM?
+
+Duplicatas. Você excluiu as duplicatas nas planilhas ou SQL com as funções Remove duplicates ou DISTINCT, respectivamente?
+
+Tipos de dados incompatíveis. Você verificou se os dados numéricos, de datas e strings foram convertidos corretamente?
+
+Strings desorganizadas (inconsistentes). Você verificou se todas as strings são consistentes e pertinentes?
+
+Formatos de dados desorganizados (inconsistentes). Você formatou as datas de forma consistente no conjunto de dados?
+
+Identificações (colunas) variáveis incorretas. Você nomeou suas colunas de forma adequada?
+
+Dados truncados. Você verificou se há dados ausentes ou truncados que exigem correção?
+
+Lógica nos negócios. Com base em seu conhecimento nos negócios, você verificou se os dados são coerentes? 
+
+Revisar a meta do seu projeto
+Depois de concluídas as tarefas de limpeza dos dados, revise a meta do seu projeto e verifique se seus dados continuam alinhados à meta. Esse é um processo contínuo que deverá ser feito durante todo o projeto; há, no entanto, três etapas para levar em consideração ao refletir a respeito: 
+
+Confirmar o problema dos negócios 
+
+Confirmar a meta do projeto
+
+Verificar se os dados têm potencial para solucionar o problema e estão alinhados à meta 
+
+=IMPORTRANGE(spreadsheet_url, range_string)
+Sintaxe: =QUERY(Planilha e Intervalo, "Select *")
+=FILTER(intervalo, condição1 [condição2, ...])
+
+A função FILTER é totalmente interna em uma planilha e não exige o uso de uma linguagem de consulta. Com ela, você consegue visualizar somente as linhas (ou colunas) nos dados de origem que atendem às condições especificadas. A função permite pré-filtrar os dados antes de analisá-los.
+
+Ela pode rodar de forma mais rápida do que a função QUERY. Lembre-se: a função QUERY pode ser combinada a outras funções em casos de cálculos mais complexos. A função QUERY pode ser usada, por exemplo, com outras funções, como SUM e COUNT, para sintetizar os dados; já com a função FILTER, isso não é possível. 
+
+------------------------------------------------CURRICULO
+
+Conquistou isso
+Conforme medido por
+Fazendo aquilo
+
+Problema
+Ação (estratégia)
+Resultado
+
+Habilidades e Qualificações
+Cursos e etc...
+
+Orientado a detalhes
+Trabalho em equipe
+Perseveransa
+Solucionador de problemas
+
+Sumário
+
+Fazendo um transição de carreira na área de suporte de TI e buscando uma posição em tempo integral no campo da Análise de Dados
+
+Analise sua experiência profissional prévia e encontre oportunidades de incluir uma habilidade comportamental. Por exemplo, se você trabalhou em um restaurante, pode enfatizar suas habilidades de comunicação e adaptação utilizadas para cumprir sua função efetivamente durante os horários de pico. 
+
+Chame a atenção para suas habilidades de solução de problemas, apresentação, pesquisa e comunicação em projetos anteriores ou treinamentos relevantes.
+
+Inclua uma mistura de habilidades comportamentais e profissionais na seção de habilidades ou no sumário do seu currículo.
+
+----------------------------------
+
+EXCEL
+
+Barra de ferramentas ou faixa de opções
+Caixa de nomes (célula ativa)
+Barra de fórmulas
+Barra de status (em baixo)
+Arquivo ou pasta de trabalho (até 255 planilhas)
+Tab vai pra direita
+Enter vai pra baixo
+OU setas
+Aumentar casas decimais 2x
+Caixa de formato de número (moeda)
+B6:B10
+=B1+B2 (+-/*)
+alça de arraste(+)
+$A$4 (cifrão trava célula) referência absoluta - senão fica relativa (arraste)
+Auto ajuste (clicar na borda direita da célula)
+Pincel (cópia de formatação)
+Caixa de bordas - Todas as bordas
+Auto ajuste = ajuste de colunas agrupadas (duplo click)
+
+clicar na primeira celula e crlt+T seleciona todoas as celulas da planilha
+
+Classificar em 2 níveis ou mais (classificar) ordenar
+Filtro de numero (esta entre) para escolher faixas
+Subtotal marca, soma, preço, ok
+lado esquerdo, nivel 1 total gera, 2 subtotais por marca, 3 completo.
+removendo duplicados selecione a coluna de registro unico (por exemplo placa de carro) - formataçao condicional - realçar regras de celulas - valores duplicados
+remover duplicatas (todas marcardas) ok
+
+listas (bancos de dados) planilha carros
+função =BDSOMA(A4:G249;G4;I4:J5)
+=BDMÉDIA(A4:G254;G4;I8:J9)
+=BDCONTAR(A4:G254;G4;I12:L13)
+
+PROCV() procura um numero em uma lista vertical
+F4 (trava o campo, põe $)
+=PROCV($B$3;Carros!A4:G249;2;0) - consulta tem 6 formulas
+
+PROCH()  procura um numero em uma lista na horizntal
+
+Se eu copio uma tabela horizontal e colo (transpor) ela vem na vertical
+
+Para bloquear os cabeçalhos (congelamento de paineis) clicar na celula após o ponto onde vc quer congelar.
+
+Posso ocultar colunas, sem apagar - depois re-exibir (marcando as duas colunas ao lado das escondidas)
+
+Posso agrupar colunas em niveis cpf, rg = nome, endereco - ou tudo
+
+Revisão - proteção - proteger planilha (celulas)
+Antes seleciono as celulas que vao ficar livres
+seleciono - formatar celulas - protecao (bloqueadas) desmarcar
+proteger planilha (cuidado com senha, não tem como achar)
+para sair, revisão, desproteger
+Para uso em varias planilhas em uma pasta  - proteger pasta de trabalho
+Validação de dados lista (digitar itens da lista)separado por ponto e virgula
+Ai abre um lista suspensa e não da pra digitar nada errado.
+
+arquivo - proteger pasta de trabalho - criptografar com senha
+
+tabelas dinamicas - agrupar informacoes e gerar relatorios rapidos, melhor que funcoes de lista. Relatorio serve para responder perguntas = identificacoes de padroes e agrupamentos (melhor que filtros + subtotal)
+
+selecionar um campo qualquer = inserir - tabela dinamica = nova planilha - renomear - abre abas analisar e design e abrem os painel de campos - 
+
+clicando 2x no total de uma coluna em uma tabela dinamica, ele abre uma planilha apenas com os dados dessa somatoria (uma copia dos dados que pode ser apagada)
+
+
+
+
+==============================================================
+
+Analise
+Processo udado para que os dados coletados façam sentido
+O objetivo é identificar tendencias e relacionamentos nos dados para responder precisamente as perguntas as quais esta fazendo
+
+Oganizar dados
+Formatar e ajustar os dados (classifica e filtra)
+obter contribuições de outros
+transformar os dados = observando as relações e padrões entre os pontos de dados, alem de fazer calculos
+
+Cast - converte o tipo
+
+SELECT
+	CAST(purchase_price AS FLOAT)
+FROM
+	customer_data.customer.purchase
+ORDER BY
+	purchase_price DESC
+
+Converteu os dados de string para float para fazer calculos
+
+Quando os dados estão organizados e formatados, voce pode classificar e filtrar para achar o que precisa. (são afetados pelos tipos de dados que voce trabalha)
+
+A classificação envolve organizar os dados em uma ordem significativa para torná-los mais fáceis de entender, analisar e visualizar.
+
+A filtragem pode ser feita para uma única ou várias variáveis, dependendo do que a consulta precisa.
+
+
+Você aprendeu sobre as quatro fases da análise: 
+
+Organizar dados
+
+Formatar e ajustar dados
+
+Obter contribuições de outros
+
+Transformar dados
+
+
+A classificação é quando você organiza os dados em uma ordem significativa para torná-los mais fáceis de entender, analisar e visualizar. Ela posiciona seus dados com base em uma métrica específica que você escolhe. É possível classificar os dados em planilhas, bancos de dados do SQL (quando o conjunto de dados é muito extenso para as planilhas) e tabelas em documentos. 
+
+A filtragem é usada quando você só tem interesse em ver os dados que atendem a um critério específico, ocultando todo o restante. É muito útil quando se tem muitos dados. Você pode economizar tempo ao zerar os dados que sejam realmente importantes ou dados que contêm bugs ou erros. A maioria das planilhas e bancos de dados do SQL permite que você filtre seus dados de várias formas. Com a filtragem, você pode encontrar o que está procurando com facilidade.
+
+Só para recapitular, a forma mais fácil de lembrar a diferença entre classificação e filtragem é que você pode usar a primeira para ordenar os dados rapidamente, enquanto que a filtragem é usada para exigir apenas os dados que atendem ao critério especificado. Use essa segunda opção quando precisar diminuir a quantidade de dados exibidos.
+Vale destacar que, depois de filtrar os dados, você também pode classificar esses dados já filtrados. Se você analisar mais uma vez o exemplo de como descobrir quem assistiu a filmes em outubro, depois de filtrar os filmes assistidos no mês indicado, é possível classificar os nomes das pessoas que assistiram aos filmes em ordem alfabética.
+
+
+Como classificar em uma tabela dinâmica
+Os itens das áreas de linha e coluna de uma tabela dinâmica são classificados em ordem crescente por qualquer lista personalizada primeiro. Se sua lista contém, por exemplo, os dias da semana, a tabela dinâmica tem a opção de classificar os nomes do dia da semana e do mês assim: segunda-feira, terça-feira, quarta-feira, etc. ao invés de alfabeticamente, como: domingo, quarta-feira, quinta-feira, etc. 
+
+Se os itens não fizerem parte de uma lista personalizada, serão classificados em ordem crescente por padrão; no entanto, se você classificar em ordem decrescente, estará definindo uma regra que rege como o campo é classificado mesmo após a adição de novos campos de dados.
+
+No excel, vc usa filtros, no SQL vc usa WHERE, para mostrar apenas as linhas desejadas.
+
+SELECT
+  *
+FROM
+  movie_data.movies
+WHERE
+  G_nero = 'ComŽdia'
+
+
+SELECT
+    *
+FROM
+    invoices
+WHERE BillingCountry = 'Germany' AND Total > 5
+
+A cláusula AND permite escrever uma consulta com mais de uma condição, ou seja, a consulta retornará uma lista de 12 clientes a serem faturados que são da Alemanha e têm faturas que somam mais de USD 5
+
+SELECT 
+*
+FROM 
+customer
+WHERE Country = 'Brazil'
+
+Classificar Planilha
+Todos os dados da planilha são classificados pelas condicoes de uma unica coluna, mas informacoes de cada linha permanecem juntas
+
+Classificar intervalo (faixa) não mantem as info juntas em cada linha. Ou seja, voce limita a classificacao a um intervalo de celulas (POUCO USADO, CUIDADO)
+
+Funcao SORT para classificar:
+=SORT(A2:D6,2,TRUE) onde 2 quer dizer B, 2a coluna e true, ordem crescente
+
+ORDEM de Classificação Customizada: Quando vc classifica os dados usando multiplas condições. OU seja, na ordem das condições que vc selecionar.
+Vc pode custmizar com 2 colunas (opcoes avancadas de class. de intervalo)
+
+A classificação a partir de uma guia de Dados da planilha substitui as células com os dados não classificados com os dados classificados, enquanto que a função SORT escrita insere os dados classificados em um outro intervalo de célula.
+A classificação a partir da guia de Dados de uma planilha pode excluir uma linha de cabeçalho no intervalo de dados a ser classificado, enquanto que o intervalo de dados da função SORT escrita jamais pode incluir uma linha de cabeçalho. 
+
+ Você pode até mesmo classificar pelos dados nas linhas ao invés de pelos dados nas colunas, basta selecionar "Classificar da esquerda para a direita" em Opções (a configuração padrão de classificação dos dados nas colunas é "Classificar de cima para baixo").
+
+
+ORDER BY - para ordenar os resultados retornados em uma consulta
+SELECT
+  *
+FROM
+  movie_data.movies
+ORDER BY Data_de_lan_amento DESC
+
+Filtrando
+SELECT
+  *
+FROM
+  movie_data.movies
+WHERE G_nero = "ComŽdia"
+ORDER BY Data_de_lan_amento DESC
+ ou duplo filtro
+SELECT
+  *
+FROM
+  movie_data.movies
+WHERE G_nero = "ComŽdia"
+AND Receita_de_bilheteria_ > 300000000
+ORDER BY Data_de_lan_amento DESC
+
+SELECT
+    Name
+FROM
+    Genres
+ORDER BY Name
+
+Se você não especificar em sua consulta qual deve ser a ordem, ou seja, crescente ou decrescente, será definido por padrão a ordem crescente, o que é adequado para classificação em ordem alfabética.
+
+SELECT
+    *
+FROM
+    Tracks
+WHERE Composer = "Chris Cornell"
+ORDER BY GenreId DESC
+
+SELECT  * FROM  `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` LIMIT  1000
+
+SELECT  *FROM  `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` ORDER BY Births LIMIT 10 
+
+SELECT  *FROM  `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` ORDER BY Births ASC LIMIT  10 
+
+SELECT  *FROM  `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` ORDER BY Births DESC LIMIT  10 
+
+ SELECT  *
+ FROM  `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` 
+ WHERE  Year = '2018-01-01'
+ ORDER BY Births DESC LIMIT 10
+
+Você também pode responder perguntas de negócios classificando o conjunto de dados de acordo com uma determinada métrica. Por exemplo, uma loja poder querer saber quais produtos vende mais ou menos. A classificação ajuda você a responder perguntas de negócios que envolvem frases como “quanto”, “quantos”, “melhor” ou “pior”—o que será uma competência valiosa em sua carreira como um analista de dados.
+
+A média foi 72,883. Para saber a temperatura média desse período, você criou uma nova tabela usando uma consulta e executou outra consulta nessa mesma tabela. Futuramente, você poderá fazer uso desta habilidade para criar tabelas com subconjuntos específicos dos seus dados e executar consultas nelas. Isso ajudará você a extrair informações de diversas fontes de dados no futuro.
+ Durante essa atividade, você explorou dois conjuntos de dados públicos e criou uma nova tabela com uma consulta. Uma boa resposta pode incluir que criar tabelas com suas consultas permite a você trabalhar com um subconjunto de dados sem precisar modificar o original.
+
+Você já pode, por exemplo, consultar dados climáticos apenas das estações de clima de Nova York necessárias. Isso é importante para identificar tendências dentro de um subconjunto de dados. Durante as próximas atividades, você continuará a analisar dados como esse.
+
+SELECT 
+*
+FROM 
+genre
+ORDER BY genre_name
+
+SELECT 
+*
+FROM 
+employee
+ORDER BY hire_date DESC
+
+O analista de dados deve usar a instrução ORDER BY shrub_price para ordenar uma lista de arbustos de estufa por preço, do mais barato ao mais caro.
+
+SELECT 
+*
+FROM 
+track
+WHERE composer = "Miles Davis"
+
+SELECT
+*
+FROM
+invoice
+WHERE
+billing_city = "Delhi" ORDER BY total
+
+
+=CONVERT(B2,"F","C") para converter temperatura em farenheit para celcius no excel, basta executar em uma celula vazia ao lado da plainha na mesma direção 
+depois vc copia e cola só os valores na coluna para ficarem estaticos.
+=CONVERT(D2, "mph", "m/s") milhas por hora para metros por segundo
+
+=CONCAT(A2,B2) junta dois campos sem  espaços
+=CONCATENATE(A2," ",B2) deixa um espaço entre as palavras
+=CONCATENATE(C2," ",D2,", ",E2) 3 celulas
+
+Para analisar dados de maneira adequada e eficiente, os dados precisam estar limpos e ser compreensíveis. Os analistas de dados usam funções como CONCAT para facilitar o trabalho com os dados. Para isso, pode ser necessário combinar várias células. A seguir, você aprenderá mais sobre funções que ajudarão você a analisar dados em planilhas.
+
+Validação de dados em planilhas = Permite controlar o que pode ou não pode ser inserido na planilha. Adiciona listas suspensas as celulas com opções pré determinadas para os usuários escolherem.
+
+Dados - validação de dados (criar uma lista suspensa com os itens separados por virgulas) ou caixa de verificação ou proteger dados e formulas estruturadas (rejeitar entradas inválidas)
+
+Formatação condicional(muda a aparencia das celulas quanto os valores atendem a condições especificas) + validação de dados
+
+Formatar - Formatação condicional
+
+A formatação condicional é uma ferramenta de planilha que muda a forma como as células aparecem quando os valores atendem a condições específicas. Ela pode ser usada para mudar a cor e dar destaque a uma célula e é uma ferramenta de planilha que muda a forma como as células aparecem quando os valores atendem a condições específicas. Ela pode ser usada para mudar a cor e dar destaque a uma célula.
+
+Vamos voltar para o menu suspenso Dados e, na parte superior, clicaremos em Validação de dados e selecionaremos Data como critério. 
+Depois, podemos acessar o menu Formato na parte superior. Vamos até a formatação condicional e abrimos a barra lateral novamente. Vamos clicar no ícone "Selecionar intervalo" e escolher a coluna "Revisar até esta data". Agora, em Regras de formato podemos selecionar "Data posterior a", que nos dá outra opção. Vamos escolher "hoje".
+Por último, vamos escolher a cor para essas células. Se a data nessas linhas for posterior a hoje, elas serão preenchidas em laranja. Também é possível escolher uma data específica, se necessário. Mas por enquanto vamos usar "hoje". Agora, todas as próximas data de revisão têm um código de cores fácil de ver, para que os usuários da tabela possam ver rapidamente os prazos.
+
+As conversões que podem ser feitas usando a função CAST. Existem funções mais especializadas como COERCION para trabalhar com números grandes e UNIX_DATE para trabalhar com datas. UNIX_DATE retorna o número de dias que passaram desde 1 de janeiro de 1970 e é usada para comparar e trabalhar com datas em diferentes fusos horários. Você provavelmente usará CAST mais frequentemente.  
+
+Para garantir que as fórmulas das planilhas continuem sendo executadas corretamente mesmo se alguém inserir dados errados sem querer, selecione “Rejeitar entradas inválidas” para sinalizar os dados como inválidos.
+
+O analista de dados está usando formatação condicional. A formatação condicional é uma ferramenta de planilha que muda a forma como as células aparecem quando os valores atendem a condições específicas.
+
+Começando com
+
+Função CAST pode converter para:
+
+Numeric (number) -> Integer - Numeric (number) - Big number - Floating integer - String
+
+String - Boolean -> Integer - Numeric (number) - Big number - Floating integer - String - Bytes - Date - Date time - Time - Timestamp
+
+Data - String -> Date - Date time - Timestamp
+
+CAST(expression AS typename) -> Em que expression é o dado a ser convertido e typename é o tipo de dado a ser retornado.
+
+SELECT CAST(MyCount AS STRING) FROM MyTable - > onde CAST retorna uma string numérica identificada pela variável MyCount na tabela chamada MyTable. 
+
+Na instrução SQL acima, ocorre o seguinte:
+
+SELECT indica que você selecionará dados da tabela
+CAST indica que você converterá os dados para outro tipo de dados
+AS vem antes e identifica o tipo que dados ao que você está convertendo
+STRING indica que você está convertendo os dados para uma string
+FROM indica de que tabela você está selecionando os dados
+
+SELECT CAST(MyVarCharCol AS INT) FROM MyTable -> A seguinte instrução CAST retorna um número inteiro de uma string identificada pela variável MyVarcharCol na tabela chamada MyTable. (Qualquer número inteiro.)
+
+Na instrução SQL acima, ocorre o seguinte:
+
+SELECT indica que você selecionará dados da tabela
+CAST indica que você converterá os dados para outro tipo de dados
+AS vem antes e identifica o tipo que dados ao que você está convertendo
+INT indica que você está convertendo os dados para um número inteiro
+FROM indica de que tabela você está selecionando os dados
+
+SELECT CAST(MyDate AS STRING) FROM MyTable -> A seguinte instrução CAST retorna uma string de data identificada pela variável MyDate na tabela chamada MyTable
+
+Na instrução SQL acima, ocorre o seguinte:
+
+SELECT indica que você selecionará dados da tabela
+CAST indica que você converterá os dados para outro tipo de dados
+AS vem antes e identifica o tipo que dados ao que você está convertendo
+STRING indica que você está convertendo os dados para uma string
+FROM indica de que tabela você está selecionando os dados
+
+SELECT CAST (MyDate AS DATETIME) FROM MyTable -> Os valores datetime têm formato YYYY-MM-DD hh: mm: ss format, de modo que as datas e horas permanecem juntas. A seguinte instrução CAST retorna um valor datetime a partir de uma data. 
+
+Na instrução SQL acima, ocorre o seguinte:
+
+SELECT indica que você selecionará dados da tabela
+CAST indica que você converterá os dados para outro tipo de dados
+AS vem antes e identifica o tipo que dados ao que você está convertendo
+DATETIME indica que você está convertendo os dados para um valor datetime
+FROM indica de que tabela você está selecionando os dados
+
+SELECT SAFE_CAST(MyDate AS STRING) FROM MyTable -> Usar uma função CAST função em uma consulta que falha retorna um erro no BigQuery. Para evitar erros em caso de uma consulta com falhas, use a função SAFE_CAST. A função SAFE_CAST retorna um valor Nulo em vez de um erro quando a consulta falha. 
+
+A sintaxe de SAFE_CAST é igual à sintaxe de CAST. Basta substituir a função diretamente nas consultas. A seguinte instrução SAFE_CAST retorna uma string a partir de uma data.
+
+
+-----------------------------
+ATENÇÃO --> Lembrete: Certifique-se de usar um acento grave (`) em vez de um apóstrofo (') na instrução FROM. 
+------------------------------
+
+
+Para retornar somente a porção de quatro dígitos da hora, a sintaxe é =RIGHT(J10, 4). O horário, 7:00, localiza-se quatro caracteres à direita da string
+
+
+CONCAT
+Função que adiciona strings para criar strings de texto novas que podem ser usadas como chaves exclusivas.
+CONCAT (‘Google’, ‘.com’);
+
+CONCAT_WS
+Uma função que combina duas ou mais strings com um separador
+CONCAT_WS (‘ . ’, ‘www’, ‘google’, ‘com’) *O separador (ponto) é inserido antes e depois de Google ao executar a função SQL
+
+CONCAT with +
+Adicionar duas ou mais strings juntas usando o operador +
+‘Google’ + ‘.com’
+
+SELECT CONCAT (‘Data’, ‘  ‘, ‘analysis’); ===> Data analysis
+
+w3schools.com/sql
+
+Combinar linhas de duas ou mais tabelas com base em uma coluna relacionada
+JOIN
+Alterar a unidade de medida de um valor nos dados
+CONVERT
+Adicione strings para criar strings de texto novas que podem ser usadas como chaves exclusivas
+CONCAT
+Retornar um certo número de registros
+LIMIT
+Limitar os registros a um certo número de casas decimais
+ROUND
+Retorne o tamanho de uma string de texto contando o número de caracteres que ela contém
+LEN
+Retornar um determinado número de caracteres do lado direito de uma string de texto
+RIGHT
+Retornar um determinado número de caracteres do lado esquerdo de uma string de texto
+LEFT
+Localizar caracteres específicos em uma string
+FIND
+
+Formula condicional
+
+SE a hora de termino for maior que a hora de inicio, substitua a formula padrão de hora final menos hora inicial por menos a hora inicial mais a hora final.
+=IF(end>start, end-start, 1-start+end)
+
+Converte valores negativos em positivos, resolvendo o cálculo
+=MOD(end-start,1)
+
+https://automate.io/blog/google-spreadsheet-formulas/
+https://exceljet.net/excel-functions
+https://exceljet.net/formulas
+https://learntocodewith.me/posts/excel-skills/
+https://www.slideshare.net/markjhonoxillo/advanced-spreadsheet-skills
+https://support.google.com/docs/table/25273?hl=en
+
+Agregação de dados - ou organização, processo de coletar dados de diferentes fontes, para combina-los em uma unica coleção sintetizada.
+
+Coleção Sintetizada - ou resumo, descreve a identificação dos dados necessários e a coleta de todos em um só lugar
+
+A agregação ajuda a identificar tendencias, fazer comparações, e obter insights que não poderiam ser encontrados com os dados isolados.
+
+São usadas funções e sub-consultas (consulta interna ou aninhada, é uma consulta dentro de outra consulta).
+
+VLOOKUP - Ferramenta de agregação de dados (busca na vertical = colunas)
+Processo de coletar dados de multiplas fontes para combina-los em uma unica colecao sintetizada.
+
+Primeiro limpar a planilha com:
+=value(A2) -> para converter string para numeric
+=TRIM(celula) -> limpa espaços a mais
+DATA - Remove duplicates
+
+=VLOOKUP(valor a ser pesquisado (ex:103),intervalo da pesquisa (ex:A2:B26), número da coluna A=1,B=2,etc.(ex:2, coluna B), para correspondência exata, FALSE, para aproximada, TRUE).
+
+=VLOOKUP(A2, 'Employee Rates'!$A$2:$B$4,2,false)
+Mesmo que hajam varias correspondencias, ele mostra apenas a primeira.
+Voce deve inserir uma coluna em branco a esquerda para usar o vlookup na coluna A, pois ele só busca a direita.
+Uma referencia absoluta é uma referencia bloqueada para que as linhas e colunas não sofram alteracoes quando copiadas. Usar $ antes da coluna e antes da linha
+Dados - proteger planilha
+A procura é de cima para baixo
+
+Quando usar: Combinar dados de uma planilha com dados de outra
+
+Depois de preencher os dados com a fórmula de VLOOKUP, copie e cole os dados como valores somente para excluir as fórmulas e, assim, manipular os dados outra vez. 
+
+Como devo priorizar essas questões?
+Qual é o problema que estou enfrentando
+Quais recursos podem me ajudar a resolver o problema?
+Como posso impedir que esse problema volte a acontecer?
+
+Uma ótima resposta para essa pergunta incluiria como a VLOOKUP pode ser usada para consultar e excluir espaços extras dos dados, converter dados de texto em dados numéricos e criar uma tabela de resumo a partir das informações consultadas.
+
+Se estiver analisando as horas trabalhadas, use a VLOOKUP para consultar seu conjunto de dados limpo e bem rotulado para avaliar o status do funcionário e determinar quem trabalha sob regime integral, meio período, ou quem está de licença. Você também pode usá-la para analisar as relações entre os índices salariais e a data de contratação ou o status. A VLOOKUP é uma ferramenta extremamente útil que pode ser usada para analisar dados em diversas situações.
+
+VLOOKUP =VLOOKUP(B19, B15:J19, 9, false) 
+
+
+JOIN SQL
+Clausual SQL usada para combinar linhas de 2 ou mais tabelas com base em uma coluna relacionada
+Basicamente é uma versão SQL do VLOOKUP(sheets).
+
+JOIN é uma cláusula do SQL que combina linhas de duas ou mais tabelas com base em uma coluna relacionada. As variações INNER JOIN, OUTER JOIN, LEFT JOIN e RIGHT JOIN estão disponíveis. Se o JOIN é usado, presume-se o uso de INNER JOIN
+
+Podem ser: Interna, à direita, à esquerda ou externa
+
+Chaves primarias fazem referencia a colunas nas quais cada valor é unico na tabela.
+Chaves estrangeiras são muitas (e que são primarias em outras tabelas)
+
+Join usa as chaves para identificar relações e valores correspondentes.
+
+A JOIN Interna é uma função que retorna registros com valores correspondentes em ambas as tabelas
+Os registros precisam ser valores-chave em ambas as tabelas.
+
+JOIN a Esquerda é uma função que retorna todos os registros da tabela a esquerda e somente os correspondentes da tabela a direita
+
+NO SQL se le da esquerda para a direita, portanto a primeira é a esquerda, e a segunda a direita...
+
+JOIN a Direita retorna todos os registros da tabela a direita e apenas os que correspondencia da esquerda.
+
+SELECT * FROM tableA LEFT JOIN tableB ON keyA = keyB
+
+=
+
+SELECT * FROM tableB RIGHT JOIN tableA ON kyeA = keyB
+
+JOIN externo retorna todos os registros correspondentes em todas as tabelas. Se tiver um registro em uma tabela que não tem correspondente na outra, sera criado um registro sem valor para a outra.
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPA---------------------------------------------------------
+Robotic Process Automation = Automação robótica de processos
+
+Equipe
+Processo
+Estrutura
+Métricas e Entregas
+
+Projeto de automação
+
+Entender o problema e definir o escopo de trabalho
+Qual o problema que precisa ser solucionado?
+
+Perder tempo
+Gastos excessivos
+Reengenharia de processo
+
+--O caminho para projetar a solução:
+Entender o problema +
+Entender as restrições +
+Entender os requisitos +
+Criticidade                 = ESCOPO (ETAPA 1)
+
+Como:
+Descoberta de processos
+5W2H
+What - O que?
+Why - Por que?
+When - Quando?
+Who - Quem?
+Where - Onde?
+How - Como?
+How Much - Quanto Custa?
+
+Desenho o processo para vizualiza-lo completamente
+Fluxograma
+
+--Documentação (ETAPA 2)
+
+PDD - Dono do processo
+Entendimento do processo - Escopo
+Desenho da solução
+Premissas - Alinhamentos iniciais para o funcionamento da forma projetada:Arquivos, Inputs...
+Ferramentas necessárias - computadores, acessos...
+Aprovações
+
+SDD - Time de manutenção
+Desenho dos módulos
+Comportamento da automação
+Gestão de logs (rastreios)
+Testes realizados
+
+Desenho da solução e Estrutura Necessária ( TO BE )
+
+Conjunto de estratégias para resolver um problema
+Elementos de um desenho:
+Premissas necessárias
+Ferramentas utilizadas
+Caracteristicas da solução
+
+Descrever o funcionamento da automação
+
+Arquitetura me módulos (facilidade de manutenção)
+Boas práticas de desenvolvimento:
+Descrever o objetivo do modulo (comentários)
+Validar as premissas (entradas e saidas)
+Logs (comunicação da automação)
+
+Estrutura Necessária (TO BE) - Integrações
+
+Potencializar um projeto (incluir elementos mais inteligentes para entregar a solução, algo mais apurado)
+Trazer inteligência para o processo (recursos de analise, estatistica)
+Suprir uma limitação de pessoas/tecnica (mudar fluxo, etapas, mais pessoal)
+AM Aprendizado de máquina
+VC Visão computacional
+PLN Processamento de linguagem natural
+
+AM - Campo de estudo que dá aos computadores a habilidade de aprender sem serem explicitamente programados. Com base nos dados, criar padrões e com eles gerar estatísticas e previsões.
+
+VC - Interpretar imagens e gerar uma ação com base em dados - biometria, reconhecimento facial, reconhecimento de padrões
+
+PLN - Interpretar um texto e gerar uma ação com base em dados
+Planilha, comando de voz ou mensagem como entrada e com base nisso e as estatisticas treinadas, leva ao assunto em questão (assistentes virtuais)
+
+Entregas e Métricas (ETAPA 4)
+
+Métrica - 
+Medição com base em uma previsão, você alinha indicativos, quais as necessidades, como reduzir custos ou o tempo do processo (argumentativa) 
+Indicar se a solução está cumprindo o objetivo (cumprimento)
+Simbolizar os resultados pós projeto (garantir o cumprimento)
+
+Alinhar as métricas corretamente poderá evidenciar melhor o trabalho realizado. (pontos positivos e negativos)
+
+Exemplos de métricas:
+
+Retorno de investimento
+Horas salvas de trabalho
+Eficiencia melhorada do setor
+
+Ciclo de vida de automação
+
+1 Identificar e avaliar
+Avalia e prioriza novos potenciais de automação e solicitações de mudanças, gerenciando o backlog geral. Comite de Priorização de Oportunidades.
+2 Design
+Expande os requisitos funcionais da oportunidade priorizada, elaborando documentação detalhada do processo a ser desenvolvido. Fornece um plano para o desenvolvedor compreender as atividades as quais necessitam ser automatizadas.
+3 Desenvolver
+O desenvolvedor, automatiza as etapas e atividades necessárias a confecção da solução visionada, via ferramentas homologadas pelo CoE, seguindo metodologias ágeis, logo após é feita a validação do cliente.
+4 Testar
+Migração da solução para um ambiente produtivo, minunciosamente monitorando seu desempenho e realizando quaisquer correções necessárias, de forma a atingir os critérios de saida acordados ao hypercare(monitoramento apurado). Testes de esforço, de tempo...
+5 Sustentar
+Liberação da solução em ambiente de produção, incorporando nas rotinas funcionais da organização, mediante o monitoramento continuo do seu desenpenho, configurando o business as usual.
+
+HIPERAUTOMAÇÃO
+
+RPA --> Integrações --> Hiperautomação
+
+Abordagem orientada aos negócios (antes, apenas ao processo)
+Processos completos 
+Processos complexos
+Dados no comando
+Conexão dos processos
+Mudança de pensamento
+
+Fluxo reciclável e protegido entre automação, usuario e análises.
+
+Geração 1 - atende apenas um problema/processo
+
+Demontre a capacidade RPA
+Identifique processos especificos
+Encontre casos de uso repetitivo com regras fixas e atividades manuais
+Construa a fila de desenvolvimento com base no Caso de Negócio
+Automatize utilizando RPA
+
+Geração 2 - Cria uma cadeia de valor, vendo o todo e automatizando varios setores importantes (varias partes, com varios ganhos e novas possibilidades)
+
+Selecione o alto impacto na cadeia de valor
+Identifique os indicadores de performance e as transformações
+Arquitetura da Solução
+Autmoatização
+Industrialização - ao entender como produto e não projeto, voce pode utilizar a mesma solucção (ferramenta) para outras atividades.
+
+
+
+GIT ----------------------------------
+
+Repositorio de codigo fonte, sistema de arquivos que persistem a estrutura de codigo fonte de forma gerenciavel, controlada e colaborativa
+
+Sistema de controle de versão de arquivos distribuido, gratuito e de codigo aberto (open source), responsavel por tudo que ocorre localmente e remotamente com os artefatos a serem controlados.
+
+Controla todo o historico de alterações
+Trabalho paralelo evitando conflitos
+Reversão simples e rapida
+Criação de snapshot dos artefatos atraves do uso de branches
+
+GitHub - Plataforma para hospedar repositorios GIT
+Commit - Um objeto GIT, um snapshot de todo seu repositório compactado em um SHA
+Branch - Um ponteiro móvel que leva para um commit
+Tag - mesma idéia de Branch, normalmente utilizado para demonstrar nova release do ambiente
+Clone - Versão local do repositorio, com Commits e Branches
+Remote - Um repositorio comum que todos os usuarios usam para trocar as suas alterações.
+Fork - cópia do repositório pertencente a um usuário diferente
+Pull Request - Lugar para compartilhar e discutir diferenças intruduzidas em uma Branch para analises, comentários, testes integrados e masi.
+HEAD - representando seu diretório de trabalho atual, o ponteiro HEAD pode ser movido para diferentes Branches, Tags ou Commits ao usar o Git Checkout
+
+Commit --> Formatar datas, filtrar colunas, converter tipos (bolinha vermelha)
+Branch --> Feature/Transform - Master (bolinha azul)
+Rebase --> Mesclagem de código, onde os commits ficam sequenciais mantendo os da master(main) (****pode perder dados CUIDADO)
+Merge fast-foward --> uma mesclagem para mover o codigo master, somente se não houver commits mais recentes do que os commits da branch de recurso. Diferente do REBASE, não mudara os IDs de commit (insere após)
+Merge (no-ff) --> onde todos os commits ficam alinhados mantendo a ordem dos eventos e é gerado novo commit com a junção dos códigos do repositorio remoto e do repositorio de trabalho. Mescla na ordem.
+Git flow --> Workflow ou design de fluxo de trabalho, define modelo de ramificação rigoroso projetado com base no lançamento do projeto com estrutura robusta para gerenciar projetos maiores (master, hotfix, release, develop, feature - tudo indicado no fluxo)
+MASTER ==> Todo o código já testado, versionado e que será entregue ao cliente.
+HOTFIX ==> Branch de trabalho para resolver (fix), um problema em produção que não pode esperar novo Release
+DEVELOP - DEV ==> Junção das FEATURES do projeto. Contém o código mais atual.
+RELEASE ==> Código que é preparado para ir para a MASTER
+FEATURE ==> Novas implementações no código (nova funcionalidade a ser incorporada).
+
+DESENVOLVIMENTO - HOMOLOGAÇÃO - PRODUÇÃO (3 AMBIENTES)	
+
+Boas práticas: COLABORAÇÃO
+- Sincronizar a branch, inicio e durante o dia. (baixar do repositorio para meu PC)
+- Subir os commits locais para o repositorio remoto no fim do dia
+- Volume alto de alterações, versionar o código mais vezes ao dia
+- Nunca subir o código sem testar antes
+- Mensagem de commit com breve descrição
+- Caso possua Jira, colocar a referencia do ticket no  comentário do commit
+- O projeto deve ter um README
+
+Utilizado para definir informações tais como software instalados
+Versões das dependencias
+Como instalar a aplicação
+Descrição curta e titlo da aplicação
+Escrito em formato Markdow
+
+
+.git ignore (gitignore)
+
+Garante que certos arquivos não rastreados pelo Git, permaneçam assim.
+Exemplos de arquivos: pacote node em aplic. angular, dados em PR(pull request)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
